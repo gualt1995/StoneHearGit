@@ -1,23 +1,21 @@
 UC02 : S'authentifier
-16/07/2017 â€“ Version 1.0 â€“ Lachachi Charaf
+16/07/2017 - Version 1.0 - Lachachi Charaf
 Auteur : Utilisateur
-PrÃ©condition : 
-ScÃ©nario nominal : 
-1.	L'utilisateur clique sur le bouton connexion
+Précondition : 
+Scénario nominal : 
+1.	L'utilisateur choisit connexion
 2.	Le système affiche le formulaire de connexion 
-3.	L'utilisateur introduit son mot de passe et son nom dâ€™utilisateur
-4.	Le système vérifie si les deux champs ont bien Ã©tÃ© renseigner  
-5.	Lâ€™utilisateur valide
-6.	Le SystÃ¨me vÃ©rifie que lâ€™utilisateur est dÃ©jÃ  inscrit
-7.	Le systÃ¨me affiche bienvenue 
+3.	L'utilisateur introduit son mot de passe et son nom d'utilisateur et valide
+4.	Le Système vérifie que l'utilisateur est déja  inscrit
+5.	Le système affiche bienvenue 
 Alternative : 
-1.	Les informations requises nâ€™ont pas Ã©tÃ© introduites
-a.	Le systÃ¨me affiche une alerte Â« veuillez renseigner tous les champs obligatoires Â»
+1.	Les informations requises n'ont pas été introduites
+a.	Le système affiche une alerte « veuillez renseigner tous les champs obligatoires »
 b.	Retour en SN2
-2.	Le nom dâ€™utilisateur et mot de passe introduits ne correspondent Ã  aucun utilisateur inscrit 
-a.	Le systÃ¨me affiche nom dâ€™utilisateur ou mot de passe erronÃ© 
+2.	Le nom d'utilisateur et mot de passe introduits ne correspondent à aucun utilisateur inscrit 
+a.	Le système affiche nom d'utilisateur ou mot de passe erronés
 b.	Retour en SN2
 Exception
 1.	Annulation
-c.	En SN3 ou SN5 lâ€™utilisateur peut choisir dâ€™annuler 
-d.	Le systÃ¨me ferme le formulaire dâ€™ajout.
+c.	En SN3 ou SN5 l'utilisateur peut choisir d'annuler 
+d.	Le système ferme le formulaire d'ajout.
