@@ -1,46 +1,75 @@
-Nom : Gerer Collection
-Acteurs : Joueur Connecté
+UC8 : "Gerer Collection"
+
 Description : Permet de visualiser la collection de carte du joueur connecté, de supprimer et d’ajouter des cartes.
-Pré-Conditions :  NaN
-Suite des interactions :
-1 - l’utilisateur clique sur le bouton de “Gerer Collection”
-2 - le jeu charge les cartes du joueur et les affiches (triées par ordre alphabétique)
-3 - le joueur sélectionne une carte non basique pour la visualiser
-4 - le jeu charge les détails de la carte et affiche une image haute résolution de celle-ci
-5 - le joueur clique sur le bouton “détruire”
-6 - le jeu demande “etes vous sur ?”
-7 - le joueur clique sur oui
-8 - le jeu supprime la carte de la collection
-9 - le jeu incrémente du montant adéquat le nombre de joyaux du joueur 
-10 - le jeu affiche de nouveau toutes les cartes du joueur
-11 - le joueur clique sur quitter
-12 - le jeu retourne au menu précédent 
+
+
+Acteurs : Joueur 
+
+Pré-Conditions : 
+	* Le joueur est connecté (Status == "Connecté")
+
+Séquencement nominal:
+	1. l’utilisateur clique sur le bouton de “Gerer Collection”
+	2. le jeu charge les cartes du joueur et les affiches (triées par ordre alphabétique)
+	3. le joueur sélectionne une carte non basique pour la visualiser
+	4. le jeu charge les détails de la carte et affiche une image haute résolution de celle-ci
+	5. le joueur clique sur le bouton “détruire”
+	6. le jeu demande “etes vous sur ?”
+	7. le joueur clique sur oui
+	8. le jeu supprime la carte de la collection
+	9. le jeu incrémente du montant adéquat le nombre de joyaux du joueur 
+	10. le jeu affiche de nouveau toutes les cartes du joueur
+	11. le joueur clique sur quitter
+	12. le jeu retourne au menu précédent 
+
+Enchaînements alternatifs
+
+
+	A1: Le joueur trie par pussiance 
+		Démarre en S2
+		1. le joueur clique sur “trier par puissance”
+		2. le jeu charge les cartes du joueur et les affiches (triées par puissance)
+		3. retour à l'étape 3
+	A2: quitter collection
+		Démarre en S2
+		1. le joueur clique sur “quitter”
+		2. le joueur reviens au menu principal 
+	A3: selection cartes basiques
+		Démarre en S3
+		1. le joueur sélectionne une carte basique  
+		2. le jeu charge les détails de la carte ainsi qu’une image haute résolution de celle-ci
+		3. le joueur clique sur le bouton retour 
+		4. retour à l'étape 2
+	A4: retour affichage carte
+		Démarre en S4
+		1. le joueur clique sur le bouton retour 
+		2. retour à l'étape 2
+	A5 : le joueur ne valide pas la destruction
+		Démarre en S5
+		1. le joueur clique sur non 
+		2. retour à l'étape 4
+
 Pos-Conditions : 
-• la carte supprimée n’est plus dans la collection du joueur, ou le nombre de carte est décrémenté de 1
-• le nombre de joyaux a été incrémenté (commune = 2, rare = 5, legendaire = 20)
-• si la carte était l’unique exemplaire du joueur, elle ne doit plus être dans aucun deck
-Alternatives : 
-2 -> A1
-2.1 - le joueur clique sur “trier par puissance”
-2.2 - le jeu charge les cartes du joueur et les affiches (triées par puissance)
--retour à l'étape 3
-2 -> A2
-2.1 - le joueur clique sur “quitter”
--retour à l'étape 12
-3 -> A3
-3.0 - le joueur sélectionne une carte basique  
-3.1 - le jeu charge les détails de la carte ainsi qu’une image haute résolution de celle-ci
-3.2 - le joueur clique sur le bouton retour 
-- retour à l'étape 2
-5 -> A4
-5.1 - le joueur clique sur le bouton retour 
-- retour à l'étape 2
-7 -> A5
-7.1 - le joueur clique sur non 
-- retour à l'étape 4
+	* la carte supprimée n’est plus dans la collection du joueur, ou le nombre de carte est décrémenté de 1
+	* le nombre de joyaux a été incrémenté (commune = 2, rare = 5, legendaire = 20)
+	* si la carte était l’unique exemplaire du joueur, elle ne doit plus être dans aucun deck
+
 Cas exceptionnels :
-E1 : l’utilisateur n’est pas connecté ou n’existe pas  
-retour au menu de connection
-E2 : la connexion avec le serveur est perdue 
-toutes les modifications de la session(ouverture de gerer collection) sont annulées
-retour à l'écran de connexion
+	E1. l’utilisateur n’est pas connecté ou n’existe pas  
+		1.retour au menu de connection
+	E2. la connexion avec le serveur est perdue 
+		1.toutes les modifications de la session(ouverture de gerer collection) sont annulées
+		2.retour à l'écran de connexion
+
+
+Post-conditions:
+	* Le nombre de pack du joueur est mis à jour
+	* La collection de cartes du joueur est mise à jour
+
+Rubriques optionnelles:
+	
+	Contraintes non-fonctionnelles:
+		Si le joueur quitte l'interface pendant l'ouverture, le système doit continuer l'éxécution (au niveau des màjs) et mettre à jour les données 
+
+	Contraintes IHM:
+
