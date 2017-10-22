@@ -65,4 +65,5 @@ Rubriques optionnelles:
 	Contraintes non-fonctionnelles:
 
 	Contraintes IHM:
-		A chaque ajout ou suppresion de cartes, l'interface devra se rafraichir pour refléter les changements (notamment au niveau de la collection pour ne pas afficher les cartes nouvellement ajoutées
+		A chaque ajout ou suppresion de cartes, l'interface devra se rafraichir pour refléter les changements 
+		(notamment au niveau de la collection pour ne pas afficher les cartes nouvellement ajoutées

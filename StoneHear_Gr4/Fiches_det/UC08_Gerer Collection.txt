@@ -2,7 +2,6 @@ UC8 : "Gerer Collection"
 
 Description : Permet de visualiser la collection de carte du joueur connecté, de supprimer et d’ajouter des cartes.
 
-
 Acteurs : Joueur 
 
 Pré-Conditions : 
@@ -60,16 +59,3 @@ Cas exceptionnels :
 	E2. la connexion avec le serveur est perdue 
 		1.toutes les modifications de la session(ouverture de gerer collection) sont annulées
 		2.retour à l'écran de connexion
-
-
-Post-conditions:
-	* Le nombre de pack du joueur est mis à jour
-	* La collection de cartes du joueur est mise à jour
-
-Rubriques optionnelles:
-	
-	Contraintes non-fonctionnelles:
-		Si le joueur quitte l'interface pendant l'ouverture, le système doit continuer l'éxécution (au niveau des màjs) et mettre à jour les données 
-
-	Contraintes IHM:
-
