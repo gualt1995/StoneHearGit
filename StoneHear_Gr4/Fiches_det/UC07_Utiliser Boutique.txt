@@ -1,0 +1,58 @@
+Nom : Utiliser Boutique
+Acteur : Joueur connecté
+Description : Affiche une boutique qui permet diverses achats: cartes, packs, emplacements.
+Pré-conditions : L'utilisateur doit avoir un compte et être connecté.
+
+Suite des intéractions:
+	1 - L'utilisateur clique sur le bouton "utiliser boutique"
+	2 - Le Système charge la boutique et l'affiche
+	3 - L'utilisateur choisit la categorie d'achat : "Acheter des packs"
+	4 - Le système charge et affiche les packs disponibles
+	5 - L'utilisateur selectionne un des packs affichés
+	6 - Le système affiche le détail du pack et son prix
+	7 - L'utilisateur clique sur acheter
+	8 - Le système affiche une demande de confirmation
+	9 - L'utilisateur clique sur confirmer
+	10 - Le système va alors vérifier si une CB est enregistré
+	11 - Le système demande autorisation de la banque associé à la CB
+	12 - La transaction est validé, le joueur recoit son due
+	13 - L'utilisateur clique sur "quitter la boutique"
+
+Post-conditions : 
+	- Le pack/la carte est bien dans la colleciton du joueur
+	- Le montant a bien été débité
+	- Le nombre de joyau a bien été décrementé
+
+Alternatives :
+	3 ---->	A1
+		3.1 - L'utilisateur choisit la catégorie d'achat: "Acheter des emplacements"
+		3.2 - L'utilisateur rentre le nombre d'emplacements qu'il veut acheter
+		retour à l'étape 7
+
+	3 ---->	A2
+		3.1 - L'utilisateur choisit la catégorie d'achat: "Acheter des cartes"
+		3.2 - Le système charge et affiche des cartes disponibles
+		3.3 - Le joueur selectionne une des cartes
+		3.4 - Le système affiche le détail de la carte et son prix en joyaux
+		3.5 - Le joueur clique sur "acheter"
+		3.6 - Le système demande une confirmation
+		3.7 - Le joueur clique sur "confirmer"
+		3.8 - Le système va alors verifier si l'utilisateur a assez de joyaux
+		3.9 - Le système valide la transaction
+		3.10 - L'utilisateur recçoit la carte dans sa collection
+		retour à l'étape 13
+
+	7 ---->	A3
+		7.1 - L'utilisateur clique sur "retourner à la galerie"
+		retour à l'étape 4
+
+	9 ----> A4
+		9.1 - L'utilisateur clique sur "Annuler"
+		9.2 - Le système annule la transaction et affiche un message de confirmation
+		retour à l'étape 2
+
+Cas exceptionnels:
+	E1 : L'utilisateur n'est pas connecté ou n'existe pas
+	E2 : La connexion avec le serveur est perdue. Toute transaction en cours est annulée. Retour à l'écran de connexion
+	E3 : Aucune CB n'est enregistré. Le Système propose à l'utilisateur d'enregistrer une CB
+	E4 : Pas assez de fond en joyaux pour acheter une carte. La transaction est annulée, retour à l'étape 2

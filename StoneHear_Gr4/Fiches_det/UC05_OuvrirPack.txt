@@ -1,0 +1,51 @@
+UC05 : "Ouvrir un pack"
+
+Date de création 	13/10/17
+Date de Màj		19/10/17
+
+Version 0.2
+
+Description : Le joueur connecté souhaite ouvrir un pack de carte via l'interface "Ouverture de packs"
+
+Acteur:  Joueur
+
+Préconditions:
+	* Le joueur est connecté (Status == "Connecté")
+
+Séquencement nominal:
+	1. Le joueur choisit "Ouverture de packs"
+	2. Le système affiche l'interface "Ouverture de packs"
+	3. Le système affiche les packs que le joueur peut ouvrir
+	4. Le joueur sélectionne un pack de cartes
+	5. Le système génére 5 cartes aléatoires dont au moins une "rare"
+	6. Le système ajoute les cartes à la collection du joueur
+	7. Le système décremente le nombre de packs que possède le joueur
+	8. Le système affiche les 5 cartes
+	9. Le joueur valide
+
+Enchaînements alternatifs
+
+	A1: Le joueur ne possède pas/plus de pack
+		Démarre en S2
+		1. Le système indique que le joueur ne possède pas de packs
+		3. Le système invite le joueur à aller dans l'un boutique à l'aide d'un lien vers la boutique pour acheter des packs ou à finir ces parties journalières
+		4. Appel du cas d'utilisation "UC07 : Utiliser Boutique"
+	A2: Le joueur veut ouvrir un autre pack
+		Démarre en S8
+		1. Reprend en S3
+	A3: Le joueur veut visualiser une carte
+		Démarre en S8
+		1. Le joueur clique sur une des cartes affichées
+		2. Appel du cas d'utilisatoin "UC09: Gérer collection"
+	
+Post-conditions:
+	* Le nombre de pack du joueur est mis à jour
+	* La collection de cartes du joueur est mise à jour
+
+Rubriques optionnelles:
+	
+	Contraintes non-fonctionnelles:
+		Si le joueur quitte l'interface pendant l'ouverture, le système doit continuer l'éxécution (au niveau des màjs) et mettre à jour les données 
+
+	Contraintes IHM:
+

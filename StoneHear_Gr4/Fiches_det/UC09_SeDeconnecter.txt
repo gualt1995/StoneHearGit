@@ -1,0 +1,27 @@
+UC09 : "Se déconnecter"
+
+Date de création 	16/10/17
+Date de Màj			18/10/17
+
+Version 0.1
+
+Description : 
+
+Acteur:  
+
+Préconditions:
+
+Séquencement nominal:
+	1. 
+
+Enchaînements alternatifs
+			
+	
+Post-conditions:
+
+
+Rubriques optionnelles:
+	
+	Contraintes non-fonctionnelles:
+
+	Contraintes IHM:

@@ -1,0 +1,27 @@
+Nom du use case : Jouer partie
+Acteur : Joueur connecté
+Description : Le joueur connecté lance une parti
+Pré-condition : Le joueur doit composer son deck
+Suite des instructions : 
+    1- Le joueur choisit le deck avec lequel il veut jouer sa parti
+    2- On fait appel au moteur du jeu qui lui va s'occuper de trouver un autre
+       joueur et de lancer la parti
+       ( vu qu'on fait appel au un autre acteur, je ne sais pas si il faut détaillé tout
+         le processus du matchmaking. Vu que c'est le moteur du jeu qui va s en occuper )
+         
+         
+Post conditions : 
+-Mise a jour des données du joueur connecté ( partie joué, parti gagné ect...)
+
+Attendus :
+
+-Grace au moteur de jeu, on trouve un autre joueur disponible pour jouer la parti
+-La partie débute
+-Les joeurs jouent chacun leur tour suivant les régles du jeu HeartStone
+A1 : Le joueur 1 gagne la parti
+A2 : Le joueur 2 gagne la parti
+
+Cas exceptionel :
+-Un des joueur quitte la partie en pleins cours
+
+
