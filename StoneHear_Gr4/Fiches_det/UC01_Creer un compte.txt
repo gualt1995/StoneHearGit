@@ -17,7 +17,7 @@ a.	Le système affiche une alerte « veuillez renseigner tous les champs obligatoi
 b.	Retour en SN2
 Exceptions :
 1.	Annulation
-a.	En SN3 ou SN5 l'utilisateur peut choisir d'annuler 
+a.	En SN3 l'utilisateur peut choisir d'annuler 
 b.	Le système ferme le formulaire d'ajout.
 
 

@@ -1,0 +1,14 @@
+TV01 - Créer Compte
+Contexte : système vierge
+Entrée :nom ="user1", email =" user@email.com" ,  username = "stone" - password "hearth"
+Scénaion : 
+	1) Cliquer sur "créer compte" 
+	2) Saisir "user1" sur nom, "user@email.com" sur email ,
+	 "stone" sur username et "hearth" password
+	3) Valider
+Réultats attendus :
+	1) Le système affiche "Compte crée avec succès )
+	2) Le compte est enregistré "stone/hearth"
+Moyens verification :
+	1) Affichage visuel de message
+	2) verifier en se connectant avec le compte crée (TV02)

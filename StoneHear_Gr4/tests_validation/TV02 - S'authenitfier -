@@ -1,0 +1,13 @@
+TV01 - S'authentifier
+Contexte : près exécution de TV01 et compte "stone/hearth" deja crée
+Entrée : 
+	1) username = "stone" - password "hearth"
+
+Scénaion : 
+	1) Cliquer sur "S'authentifier" 
+	2) Saisir "stone" sur username et "hearth" password
+	3) Valider
+Réultats attendus :
+	1) Le système affiche "Bienvenue Stone"
+Moyens verification :
+	1) Affichage visuel de message
