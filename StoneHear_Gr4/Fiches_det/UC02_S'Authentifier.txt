@@ -1,12 +1,12 @@
-UC02 : Connexion
+UC02 : S'authentifier
 16/07/2017 – Version 1.0 – Lachachi Charaf
 Auteur : Utilisateur
 Précondition : 
 Scénario nominal : 
-1.	L’utilisateur clique sur le bouton connexion
-2.	Le système affiche le formulaire de connexion 
-3.	L’utilisateur introduit son mot de passe et son nom d’utilisateur
-4.	Le système vérifie si les deux champs ont bien été renseigner  
+1.	L'utilisateur clique sur le bouton connexion
+2.	Le syst�me affiche le formulaire de connexion 
+3.	L'utilisateur introduit son mot de passe et son nom d’utilisateur
+4.	Le syst�me v�rifie si les deux champs ont bien été renseigner  
 5.	L’utilisateur valide
 6.	Le Système vérifie que l’utilisateur est déjà inscrit
 7.	Le système affiche bienvenue 
