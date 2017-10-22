@@ -1,0 +1,14 @@
+TV08 - Creer Compte
+Contexte : le joueur est connecte, sur le menu principal du jeu
+Scenaion : 
+	1) cliquer sur Gerer collection
+	2) selectioner sur une carte (non basique) que le joueur souhaite detruire
+	3) cliquer sur l'option detruire et confirmer l'action
+Reultats attendus :
+	1) Le systeme incremente le nombre de joyeaux de l'utilisateur de la somme 
+		correspondant au montant offert pour la destruction de la carte
+	2) La carte est supprimée de l'inventaire du joueur si elle etait l'unique en sa possession,
+		sinon le nombre de carte de se type est diminue de un
+Moyens verification :
+	1) Affichage du nombre de joyeaux
+	2) le carte n'est plus presente dans la collection ou le nombre est diminue de un 
