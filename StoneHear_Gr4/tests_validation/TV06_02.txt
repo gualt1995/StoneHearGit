@@ -1,0 +1,21 @@
+TV06_02: Composer deck A1
+
+Contexte: 
+	* Un joueur "Bob", connecté, possédant un deck mémorisé "Mage" de 30 cartes
+	
+Entrée:
+	* joueur = "Bob", deck = "Mage"
+	
+Scénario:
+	1. Le testeur choisit "Composition Deck"
+	2. Le système affiche l'interface "Emplacements Decks"
+	3. Le testeur choisit de modifier le deck "Mage"
+	4. Le système affiche une interface "Composition Deck"
+	
+Résultat attendu:
+	* Le testeur doit pouvoir ajouter plusieurs cartes
+	* Le testeur doit pouvoir supprimer plusieurs cartes
+	
+Moyen de vérification:
+	* Visuel - Le testeur doit pouvoir observer les changements dans le deck
+	

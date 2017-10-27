@@ -1,0 +1,26 @@
+TV06_01: Composer deck nominal
+
+Contexte: 
+	* Un joueur "Bob", connecté, possédant un deck mémorisé "Mage" de 29 cartes et une carte "Trou noir" dans sa collection
+	
+Entrée:
+	* joueur = "Bob", deck = "Mage"
+	
+Scénario:
+	1. Le testeur choisit "Composition Deck"
+	2. Le système affiche l'interface "Emplacements Decks"
+	3. Le testeur choisit de modifier le deck "Mage"
+	4. Le système affiche une interface "Composition Deck"
+	5. Le testeur sélectionne la carte "Trou Noir" de sa collection à ajouter à son deck "Mage".
+	6. Le système ajoute la carte au nouveau deck.
+	7. Le testeur choisit de valider le deck.
+	
+Résultat attendu:
+	* Le système a ajouté la carte "Trou Noir" au deck "Mage"
+	* Le système a mémorisé le nouveau deck (qui est désormais valide => 30 cartes)
+	* Le testeur ne doit plus pouvoir ajouter la carte "Trou noir"
+	
+Moyen de vérification:
+	* Visuel - Le testeur doit pouvoir observer les 30 cartes dans le deck
+	* Le testeur doit pouvoir lancer une partie avec le deck "Mage"
+	

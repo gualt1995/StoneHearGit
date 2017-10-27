@@ -1,0 +1,25 @@
+TV06_04: Composer deck E1
+
+Contexte: 
+	* Un joueur "Bob", connecté, possédant un deck mémorisé "Mage" de 30 cartes contenant la carte "Trou noir"
+	
+Entrée:
+	* joueur = "Bob", deck = "Mage"
+	
+Scénario:
+	1. Le testeur choisit "Composition Deck"
+	2. Le système affiche l'interface "Emplacements Decks"
+	3. Le testeur choisit de modifier le deck "Mage"
+	4. Le système affiche une interface "Composition Deck"
+	5. Le testeur sélectionne la carte "Trou Noir" de son deck "Mage".
+	6. Le système supprime la carte du deck "Mage".
+	7. Le testeur choisit d'annuler.
+	
+Résultat attendu:
+	* Le système n'a pas supprimé la carte "Trou Noir" au deck 
+	* Le système n'a pas mémorisé le nouveau deck (qui est donc toujours valide => 30 cartes)
+	
+Moyen de vérification:
+	* Visuel - Le testeur doit pouvoir observer les 30 cartes dans le deck dont la carte "Trou noi"
+	* Le testeur doit pouvoir lancer une partie avec le deck "Mage"
+	

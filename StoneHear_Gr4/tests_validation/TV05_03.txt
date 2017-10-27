@@ -1,0 +1,30 @@
+TV05_03: Ouvrir pack A2	
+
+Contexte: 
+	* Un joueur "Bob", connecté et possédant deux pack de cartes
+	
+Entrée:
+	* joueur = "Bob"
+	
+Scénario:
+	1. Le testeur choisit "Ouvrir pack"
+	2. Le système affiche l'interface
+	3. Le système affiche un pack de cartes
+	4. Le testeur sélectionne le pack de cartes
+	5. Le système génére 5 cartes aléatoires dont au moins une "rare"
+	6. Le système ajoute les cartes à la collection du joueur "Bob"
+	7. Le système décremente le nombre de packs que possède le joueur "Bob
+	8. Le système affiche les 5 cartes
+	9. Le testeur sélectionne l'autre pack de cartes
+	10. Le système génére 5 cartes aléatoires dont au moins une "rare"
+	11. Le système ajoute les cartes à la collection du joueur "Bob"
+	12. Le système décremente le nombre de packs que possède le joueur "Bob
+	13. Le système affiche les 5 cartes
+	
+Résultat attendu:
+	* Le système a ajouté les 10 cartes au joueur "Bob", dont au moins deux "rare"
+	* Le système a retiré 2 pack de cartes au joueur "Bob". Il lui en reste donc 0 et ne peut donc ouvrir un autre pack
+	
+Moyen de vérification:
+	* Visuel - Le testeur doit pouvoir observer les 5 nouvelles cartes dans la collection du joueur "Bob"
+	

@@ -1,51 +1,51 @@
 UC05 : "Ouvrir un pack"
 
-Date de cr√©ation 	13/10/17
-Date de M√†j		19/10/17
+Date de crÈation 	13/10/17
+Date de M‡j		19/10/17
 
 Version 0.2
 
-Description : Le joueur connect√© souhaite ouvrir un pack de carte via l'interface "Ouverture de packs"
+Description : Le joueur connectÈ souhaite ouvrir un pack de carte via l'interface "Ouverture de packs"
 
 Acteur:  Joueur
 
-Pr√©conditions:
-	* Le joueur est connect√© (Status == "Connect√©")
+PrÈconditions:
+	* Le joueur est connectÈ (Status == "ConnectÈ")
 
-S√©quencement nominal:
+SÈquencement nominal:
 	1. Le joueur choisit "Ouverture de packs"
-	2. Le syst√®me affiche l'interface "Ouverture de packs"
-	3. Le syst√®me affiche les packs que le joueur peut ouvrir
-	4. Le joueur s√©lectionne un pack de cartes
-	5. Le syst√®me g√©n√©re 5 cartes al√©atoires dont au moins une "rare"
-	6. Le syst√®me ajoute les cartes √† la collection du joueur
-	7. Le syst√®me d√©cremente le nombre de packs que poss√®de le joueur
-	8. Le syst√®me affiche les 5 cartes
+	2. Le systËme affiche l'interface "Ouverture de packs"
+	3. Le systËme affiche les packs que le joueur peut ouvrir
+	4. Le joueur sÈlectionne un pack de cartes
+	5. Le systËme gÈnÈre 5 cartes alÈatoires dont au moins une "rare"
+	6. Le systËme ajoute les cartes ‡ la collection du joueur
+	7. Le systËme dÈcremente le nombre de packs que possËde le joueur
+	8. Le systËme affiche les 5 cartes
 	9. Le joueur valide
 
-Encha√Ænements alternatifs
+EnchaÓnements alternatifs
 
-	A1: Le joueur ne poss√®de pas/plus de pack
-		D√©marre en S2
-		1. Le syst√®me indique que le joueur ne poss√®de pas de packs
-		3. Le syst√®me invite le joueur √† aller dans l'un boutique √† l'aide d'un lien vers la boutique pour acheter des packs ou √† finir ces parties journali√®res
-		4. Appel du cas d'utilisation "UC07 : Utiliser Boutique"
+	A1: Le joueur ne possËde pas/plus de pack
+		DÈmarre en S2
+		1. Le systËme indique que le joueur ne possËde pas de packs
+		2. Le systËme invite le joueur ‡ aller dans l'un boutique ‡ l'aide d'un lien vers la boutique pour acheter des packs ou ‡ finir ces parties journaliËres
+		3. Appel du cas d'utilisation "UC07 : Utiliser Boutique"
 	A2: Le joueur veut ouvrir un autre pack
-		D√©marre en S8
+		DÈmarre en S8
 		1. Reprend en S3
 	A3: Le joueur veut visualiser une carte
-		D√©marre en S8
-		1. Le joueur clique sur une des cartes affich√©es
-		2. Appel du cas d'utilisatoin "UC09: G√©rer collection"
+		DÈmarre en S8
+		1. Le joueur clique sur une des cartes affichÈes
+		2. Appel du cas d'utilisatoin "UC09: GÈrer collection"
 	
 Post-conditions:
-	* Le nombre de pack du joueur est mis √† jour
-	* La collection de cartes du joueur est mise √† jour
+	* Le nombre de pack du joueur est mis ‡ jour
+	* La collection de cartes du joueur est mise ‡ jour
 
 Rubriques optionnelles:
 	
 	Contraintes non-fonctionnelles:
-		Si le joueur quitte l'interface pendant l'ouverture, le syst√®me doit continuer l'√©x√©cution (au niveau des m√†js) et mettre √† jour les donn√©es 
+		Si le joueur quitte l'interface pendant l'ouverture, le systËme doit continuer l'ÈxÈcution (au niveau des m‡js) et mettre ‡ jour les donnÈes 
 
 	Contraintes IHM:
 

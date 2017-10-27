@@ -1,0 +1,52 @@
+Nom : Gérer cartes de paiement
+Auteur : Julien Denes, groupe Stonehear (4)
+Date : 15/10/2017
+Version : 1.0
+
+Description : le joueur ajoute, modifie ou supprime une carte de paiement.
+Acteur : joueur
+Préconditions : le joueur est connecté
+
+**********
+
+SCENARIO NOMINAL :
+    (1) L'acteur clique sur l'icône "Ajouter une carte de paiement"
+    (2) L'acteur sélectionne le type de sa carte (Visa, Visa Electron, CB, Mastercard, ou American Express)
+    (3) L'acteur entre le numéro de sa carte
+    (4) L'acteur indique la date de fin de validité de sa carte
+    (5) L'acteur entre le nom du titulaire de la carte
+    (6) L'acteur entre le cryptogramme visuel de sa carte
+    (7) L'acteur clique sur "Valider"
+    (8) Le système enregistre les informations et affiche un message de confirmation
+    
+ALTERNATIVES :
+    (A1) L'acteur n'a pas rempli l'un des champs d'information :
+        (Condition) En (8) si l'un des champs est vide :
+        (A1.1) Le système indique à l'acteur de remplir tous les champs
+        (A1.2) Retour en (2)
+    (A2) L'acteur indique un numéro de carte invalide :
+        (Condition) En (8) si le champs "numéro de carte" n'est pas composé de 16 chiffres :
+        (A2.1) Le système indique à l'acteur de vérifier le numéro
+        (A2.2) Retour en (3)
+    (A3) L'acteur indique un cryptogramme visuel invalide :
+        (Condition) En (8) si le champs "cryptogramme visuel" n'est pas composé de 3 chiffres :
+        (A3.1) Le système indique à l'acteur de vérifier le numéro
+        (A3.2) Retour en (6)
+    (A4) L'acteur souhaite modifier une carte déjà enregistrée :
+        (Condition) En (1) si le système a déjà une carte enregistrée :
+        (A4.1) Le système affiche une icône "Modifier ma carte de paiement"
+        (A4.2) En (1) si l'acteur clique sur l'icône "Modifier ma carte de paiement" :
+            (A4.2.1) Le système pré-remplit les champs avec les informations en mémoire
+        (A4.3) Retour en (2)
+    (A5) L'acteur souhaite supprimer une carte déjà enregistrée :
+        (Condition) En (1) si le système a déjà une carte enregistrée :
+        (A5.1) Le système affiche une icône "Supprimer ma carte de paiement"
+        (A5.2) En (1) si l'acteur clique sur l'icône "Supprimer ma carte de paiement" :
+            (A5.2.1) Le système affiche une demande de confirmation
+            (A5.2.2) Le système supprime les informations de la carte en mémoire
+        (A4.3) Retour en (1)
+
+EXCEPTIONS : aucune
+
+Post-conditions :
+    - le système a enregistré les informations de la nouvelle carte

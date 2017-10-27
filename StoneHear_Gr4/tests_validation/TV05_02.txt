@@ -1,0 +1,20 @@
+TV05_02: Ouvrir pack A1
+
+Contexte: 
+	* Un joueur "Bob", connecté et ne possédant pas un pack de cartes
+	
+Entrée:
+	* joueur = "Bob"
+	
+Scénario:
+	1. Le testeur choisit "Ouvrir pack"
+	2. Le système affiche l'interface
+	
+Résultat attendu:
+	* Le système indique que le joueur ne possède pas de packs
+	* Le système invite le joueur à aller dans l'un boutique à l'aide d'un lien vers la boutique pour acheter des packs ou à finir ces parties journalières
+		
+	
+Moyen de vérification:
+	* Visuel - Le testeur doit pouvoir observé les deux invitations
+	
