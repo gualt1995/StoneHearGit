@@ -1761,7 +1761,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KW4cYKngEeeIL9j-e3P21Q" name="Joueur">
+      <packagedElement xmi:type="uml:Class" xmi:id="_KW4cYKngEeeIL9j-e3P21Q" name="Joueur" clientDependency="_EXnqYN2uEeeWIfRGmtYZpg">
         <ownedAttribute xmi:id="_UuMOcKngEeeIL9j-e3P21Q" name="pseudo" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZRp9IKnhEeeIL9j-e3P21Q" value="1"/>
@@ -1849,6 +1849,10 @@
         <ownedAttribute xmi:id="_g_o9cNtuEee0MaN-fYEbiA" name="joyaux" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
+        <interfaceRealization xmi:id="_EXnqYN2uEeeWIfRGmtYZpg" client="_KW4cYKngEeeIL9j-e3P21Q">
+          <supplier xmi:type="uml:Interface" href="Analyse1.emx#_BxWPXNXlEeekW_MD1NGrHg?Conception/StoneHearth.itf/IJoueur?"/>
+          <contract href="Analyse1.emx#_BxWPXNXlEeekW_MD1NGrHg?Conception/StoneHearth.itf/IJoueur?"/>
+        </interfaceRealization>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_OmJnQKniEeeIL9j-e3P21Q" name="Joyaux">
         <ownedAttribute xmi:id="_oLi3oKnjEeeIL9j-e3P21Q" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_oLhpgKnjEeeIL9j-e3P21Q">
