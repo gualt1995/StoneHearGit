@@ -996,7 +996,7 @@
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_KW8GwKngEeeIL9j-e3P21Q" visible="false" type="StructureCompartment"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KW64oangEeeIL9j-e3P21Q" x="1848" y="2244" width="6558" height="5263"/>
           </children>
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_H0OngKniEeeIL9j-e3P21Q" element="_H0NZYKniEeeIL9j-e3P21Q" fontName="URW Gothic L" fontHeight="8" fillColor="11595007" transparency="0" lineColor="2598092" lineWidth="1" showStereotype="Label">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_H0OngKniEeeIL9j-e3P21Q" fontName="URW Gothic L" fontHeight="8" fillColor="11595007" transparency="0" lineColor="2598092" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_H0POkKniEeeIL9j-e3P21Q" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_H0POkaniEeeIL9j-e3P21Q" width="1320" height="1320"/>
             </children>
@@ -1007,6 +1007,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_H0POlqniEeeIL9j-e3P21Q" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_H0POl6niEeeIL9j-e3P21Q" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_H0POmKniEeeIL9j-e3P21Q" visible="false" type="StructureCompartment"/>
+            <element xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H0OnganiEeeIL9j-e3P21Q" x="14265" y="11095"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_IgURcKniEeeIL9j-e3P21Q" element="_IgTDUKniEeeIL9j-e3P21Q" fontName="URW Gothic L" fontHeight="8" fillColor="11595007" transparency="0" lineColor="2598092" lineWidth="1" showStereotype="Label">
@@ -1133,12 +1134,14 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_BUK-Y6njEeeIL9j-e3P21Q" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUK-YanjEeeIL9j-e3P21Q" x="-185" y="215"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_BUK-ZKnjEeeIL9j-e3P21Q" type="ToMultiplicityLabel" element="_BUH7EKnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BUK-ZKnjEeeIL9j-e3P21Q" type="ToMultiplicityLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_BUK-ZqnjEeeIL9j-e3P21Q" type="ToMultiplicity"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_BUH7EKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/deck?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BUK-ZanjEeeIL9j-e3P21Q" x="-294" y="-313"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_BUK-Z6njEeeIL9j-e3P21Q" type="ToRoleLabel" element="_BUH7EKnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BUK-Z6njEeeIL9j-e3P21Q" type="ToRoleLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_BUK-aanjEeeIL9j-e3P21Q" type="ToRole"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_BUH7EKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/deck?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BUK-aKnjEeeIL9j-e3P21Q" x="367" y="-386"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_BUK-aqnjEeeIL9j-e3P21Q" type="FromMultiplicityLabel" element="_BUGs8anjEeeIL9j-e3P21Q">
@@ -1149,16 +1152,18 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_BULlc6njEeeIL9j-e3P21Q" type="FromRole"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BULlcqnjEeeIL9j-e3P21Q" x="-976" y="-386"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_BULldKnjEeeIL9j-e3P21Q" type="ToQualifierLabel" element="_BUH7EKnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BULldKnjEeeIL9j-e3P21Q" type="ToQualifierLabel">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_BULldqnjEeeIL9j-e3P21Q" type="QualifierCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_BUH7EKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/deck?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BULldanjEeeIL9j-e3P21Q" y="-186"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_BULld6njEeeIL9j-e3P21Q" type="FromQualifierLabel" element="_BUGs8anjEeeIL9j-e3P21Q">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_BULleanjEeeIL9j-e3P21Q" type="QualifierCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BULleKnjEeeIL9j-e3P21Q" y="-186"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_BULleqnjEeeIL9j-e3P21Q" type="ToConstraintLabel" element="_BUH7EKnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BULleqnjEeeIL9j-e3P21Q" type="ToConstraintLabel">
               <children xmi:type="notation:ListCompartment" xmi:id="_BUMMgKnjEeeIL9j-e3P21Q" type="ToConstraintCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_BUH7EKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/deck?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_BULle6njEeeIL9j-e3P21Q" y="1058"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_BUMMganjEeeIL9j-e3P21Q" type="FromConstraintLabel" element="_BUGs8anjEeeIL9j-e3P21Q">
@@ -1173,12 +1178,14 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ha9WdanjEeeIL9j-e3P21Q" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ha9Wc6njEeeIL9j-e3P21Q" x="26" y="-785"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_Ha9WdqnjEeeIL9j-e3P21Q" type="ToMultiplicityLabel" element="_Ha66MqnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ha9WdqnjEeeIL9j-e3P21Q" type="ToMultiplicityLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ha9WeKnjEeeIL9j-e3P21Q" type="ToMultiplicity"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_Ha66MqnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/packs?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha9Wd6njEeeIL9j-e3P21Q" y="396"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_Ha9WeanjEeeIL9j-e3P21Q" type="ToRoleLabel" element="_Ha66MqnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ha9WeanjEeeIL9j-e3P21Q" type="ToRoleLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ha9We6njEeeIL9j-e3P21Q" type="ToRole"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_Ha66MqnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/packs?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha9WeqnjEeeIL9j-e3P21Q" x="24" y="-661"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_Ha9WfKnjEeeIL9j-e3P21Q" type="FromMultiplicityLabel" element="_Ha6TIKnjEeeIL9j-e3P21Q">
@@ -1189,16 +1196,18 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ha99gqnjEeeIL9j-e3P21Q" type="FromRole"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha99ganjEeeIL9j-e3P21Q" x="-21" y="-634"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_Ha99g6njEeeIL9j-e3P21Q" type="ToQualifierLabel" element="_Ha66MqnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ha99g6njEeeIL9j-e3P21Q" type="ToQualifierLabel">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_Ha99hanjEeeIL9j-e3P21Q" type="QualifierCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_Ha66MqnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/packs?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha99hKnjEeeIL9j-e3P21Q" y="-186"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_Ha99hqnjEeeIL9j-e3P21Q" type="FromQualifierLabel" element="_Ha6TIKnjEeeIL9j-e3P21Q">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_Ha99iKnjEeeIL9j-e3P21Q" type="QualifierCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha99h6njEeeIL9j-e3P21Q" y="-186"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_Ha99ianjEeeIL9j-e3P21Q" type="ToConstraintLabel" element="_Ha66MqnjEeeIL9j-e3P21Q">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ha99ianjEeeIL9j-e3P21Q" type="ToConstraintLabel">
               <children xmi:type="notation:ListCompartment" xmi:id="_Ha99i6njEeeIL9j-e3P21Q" type="ToConstraintCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_Ha66MqnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/packs?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha99iqnjEeeIL9j-e3P21Q" y="1058"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_Ha99jKnjEeeIL9j-e3P21Q" type="FromConstraintLabel" element="_Ha6TIKnjEeeIL9j-e3P21Q">
@@ -1373,12 +1382,14 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-cZla9XEeeP_ZeVDlBuKA" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-cZk69XEeeP_ZeVDlBuKA" y="-186"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_l-cZlq9XEeeP_ZeVDlBuKA" type="ToMultiplicityLabel" element="_l-XhEq9XEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_l-cZlq9XEeeP_ZeVDlBuKA" type="ToMultiplicityLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-dAoK9XEeeP_ZeVDlBuKA" type="ToMultiplicity"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_l-XhEq9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/collection?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-cZl69XEeeP_ZeVDlBuKA" x="-710" y="497"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_l-dAoa9XEeeP_ZeVDlBuKA" type="ToRoleLabel" element="_l-XhEq9XEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_l-dAoa9XEeeP_ZeVDlBuKA" type="ToRoleLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-dAo69XEeeP_ZeVDlBuKA" type="ToRole"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_l-XhEq9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/collection?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-dAoq9XEeeP_ZeVDlBuKA" x="157" y="428"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_l-dApK9XEeeP_ZeVDlBuKA" type="FromMultiplicityLabel" element="_l-W6AK9XEeeP_ZeVDlBuKA">
@@ -1389,16 +1400,18 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-dAqa9XEeeP_ZeVDlBuKA" type="FromRole"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-dAqK9XEeeP_ZeVDlBuKA" x="-228" y="497"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_l-dAqq9XEeeP_ZeVDlBuKA" type="ToQualifierLabel" element="_l-XhEq9XEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_l-dAqq9XEeeP_ZeVDlBuKA" type="ToQualifierLabel">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_l-dnsK9XEeeP_ZeVDlBuKA" type="QualifierCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_l-XhEq9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/collection?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-dAq69XEeeP_ZeVDlBuKA" y="-186"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_l-dnsa9XEeeP_ZeVDlBuKA" type="FromQualifierLabel" element="_l-W6AK9XEeeP_ZeVDlBuKA">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_l-dns69XEeeP_ZeVDlBuKA" type="QualifierCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-dnsq9XEeeP_ZeVDlBuKA" y="-186"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_l-dntK9XEeeP_ZeVDlBuKA" type="ToConstraintLabel" element="_l-XhEq9XEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_l-dntK9XEeeP_ZeVDlBuKA" type="ToConstraintLabel">
               <children xmi:type="notation:ListCompartment" xmi:id="_l-dntq9XEeeP_ZeVDlBuKA" type="ToConstraintCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_l-XhEq9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/collection?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_l-dnta9XEeeP_ZeVDlBuKA" y="1058"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_l-dnt69XEeeP_ZeVDlBuKA" type="FromConstraintLabel" element="_l-W6AK9XEeeP_ZeVDlBuKA">
@@ -1407,7 +1420,7 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l-cZka9XEeeP_ZeVDlBuKA" points="[1202, 5, -8699, 887]$[8038, 5, -1863, 887]"/>
           </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_cA3gsK9YEeeP_ZeVDlBuKA" element="_cAwL8K9YEeeP_ZeVDlBuKA" source="_H0OngKniEeeIL9j-e3P21Q" target="_LWB7EK9YEeeP_ZeVDlBuKA" fontName="URW Gothic L" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="168876" lineWidth="1" showStereotype="Text">
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_cA3gsK9YEeeP_ZeVDlBuKA" source="_H0OngKniEeeIL9j-e3P21Q" target="_LWB7EK9YEeeP_ZeVDlBuKA" fontName="URW Gothic L" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="168876" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_cA4HwK9YEeeP_ZeVDlBuKA" type="NameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cA4Hwq9YEeeP_ZeVDlBuKA" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cA4Hw69YEeeP_ZeVDlBuKA" type="Name"/>
@@ -1421,30 +1434,35 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cA4u069YEeeP_ZeVDlBuKA" type="ToRole"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA4u0q9YEeeP_ZeVDlBuKA" x="311" y="296"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u1K9YEeeP_ZeVDlBuKA" type="FromMultiplicityLabel" element="_cAwzAK9YEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u1K9YEeeP_ZeVDlBuKA" type="FromMultiplicityLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cA4u1q9YEeeP_ZeVDlBuKA" type="FromMultiplicity"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_cAwzAK9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/rareté?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA4u1a9YEeeP_ZeVDlBuKA" x="345" y="296"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u169YEeeP_ZeVDlBuKA" type="FromRoleLabel" element="_cAwzAK9YEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u169YEeeP_ZeVDlBuKA" type="FromRoleLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cA4u2a9YEeeP_ZeVDlBuKA" type="FromRole"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_cAwzAK9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/rareté?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA4u2K9YEeeP_ZeVDlBuKA" x="-354" y="296"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_cA4u2q9YEeeP_ZeVDlBuKA" type="ToQualifierLabel" element="_cAyBIK9YEeeP_ZeVDlBuKA">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_cA4u3K9YEeeP_ZeVDlBuKA" type="QualifierCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA4u269YEeeP_ZeVDlBuKA" y="-186"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u3a9YEeeP_ZeVDlBuKA" type="FromQualifierLabel" element="_cAwzAK9YEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_cA4u3a9YEeeP_ZeVDlBuKA" type="FromQualifierLabel">
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_cA5V4K9YEeeP_ZeVDlBuKA" type="QualifierCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_cAwzAK9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/rareté?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA4u3q9YEeeP_ZeVDlBuKA" y="-186"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_cA5V4a9YEeeP_ZeVDlBuKA" type="ToConstraintLabel" element="_cAyBIK9YEeeP_ZeVDlBuKA">
               <children xmi:type="notation:ListCompartment" xmi:id="_cA5V469YEeeP_ZeVDlBuKA" type="ToConstraintCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA5V4q9YEeeP_ZeVDlBuKA" y="1058"/>
             </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_cA5V5K9YEeeP_ZeVDlBuKA" type="FromConstraintLabel" element="_cAwzAK9YEeeP_ZeVDlBuKA">
+            <children xmi:type="notation:DecorationNode" xmi:id="_cA5V5K9YEeeP_ZeVDlBuKA" type="FromConstraintLabel">
               <children xmi:type="notation:ListCompartment" xmi:id="_cA5V5q9YEeeP_ZeVDlBuKA" type="FromConstraintCompartment"/>
+              <element xmi:type="uml:Property" href="Analyse1.emx#_cAwzAK9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/rareté?"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_cA5V5a9YEeeP_ZeVDlBuKA" y="1058"/>
             </children>
+            <element xmi:type="uml:Association" href="Analyse1.emx#_cAwL8K9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/%3CAssociation%3E?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cA3gsa9YEeeP_ZeVDlBuKA" points="[36, 16, -167, -83]$[248, 95, 45, -4]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ycsQsK9cEeeP_ZeVDlBuKA" element="_ycmxIK9cEeeP_ZeVDlBuKA" source="_KW64oKngEeeIL9j-e3P21Q" target="_xJOIkK9aEeeP_ZeVDlBuKA" fontName="URW Gothic L" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="168876" lineWidth="1" showStereotype="Text">
@@ -1642,68 +1660,13 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_H0NZYKniEeeIL9j-e3P21Q" name="Carte">
-        <ownedAttribute xmi:id="_BUH7EKnjEeeIL9j-e3P21Q" name="deck" visibility="private" type="_IgTDUKniEeeIL9j-e3P21Q" association="_BUGs8KnjEeeIL9j-e3P21Q">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BUH7EqnjEeeIL9j-e3P21Q" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BUH7EanjEeeIL9j-e3P21Q" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_Ha66MqnjEeeIL9j-e3P21Q" name="packs" visibility="private" type="_NB-ewKniEeeIL9j-e3P21Q" association="_Ha5sEKnjEeeIL9j-e3P21Q">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ha7hQanjEeeIL9j-e3P21Q" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ha7hQKnjEeeIL9j-e3P21Q"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_oLiQkKnjEeeIL9j-e3P21Q" name="joyaux" visibility="private" type="_OmJnQKniEeeIL9j-e3P21Q" association="_oLhpgKnjEeeIL9j-e3P21Q">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLiQkqnjEeeIL9j-e3P21Q" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oLiQkanjEeeIL9j-e3P21Q"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_KzttoK9XEeeP_ZeVDlBuKA" name="effet" visibility="private" type="_EHPOkK9XEeeP_ZeVDlBuKA" association="_Kzr4cK9XEeeP_ZeVDlBuKA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kzttoq9XEeeP_ZeVDlBuKA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kzttoa9XEeeP_ZeVDlBuKA"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_l-XhEq9XEeeP_ZeVDlBuKA" name="collection" visibility="private" type="_c9QF4K9XEeeP_ZeVDlBuKA" association="_l-WS8K9XEeeP_ZeVDlBuKA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l-YIIa9XEeeP_ZeVDlBuKA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l-YIIK9XEeeP_ZeVDlBuKA"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_cAwzAK9YEeeP_ZeVDlBuKA" name="rareté" visibility="private" type="_LWAF4K9YEeeP_ZeVDlBuKA" association="_cAwL8K9YEeeP_ZeVDlBuKA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cAxaEa9YEeeP_ZeVDlBuKA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cAxaEK9YEeeP_ZeVDlBuKA" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_Rg1lkK9aEeeP_ZeVDlBuKA" name="nomCarte" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_VahM4K9aEeeP_ZeVDlBuKA" value="None">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_VvXbgK9aEeeP_ZeVDlBuKA" name="description" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YmA4gK9aEeeP_ZeVDlBuKA" value="None">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_ZL2wgK9aEeeP_ZeVDlBuKA" name="valeurAttaque" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_cKXJAK9aEeeP_ZeVDlBuKA">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_cjO8AK9aEeeP_ZeVDlBuKA" name="valeurDéfense" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_fDSd8K9aEeeP_ZeVDlBuKA">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_9q2nILiwEeeTVvXhcUbd2A" name="idCarte" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_nUWwELl9EeeRzIPw4wolFA" name="imgCarte" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_c9QF4K9XEeeP_ZeVDlBuKA" name="Collection">
         <ownedAttribute xmi:id="_h3d9Iq9XEeeP_ZeVDlBuKA" name="joueur" visibility="private" type="_KW4cYKngEeeIL9j-e3P21Q" association="_h3cvAK9XEeeP_ZeVDlBuKA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h3ekMa9XEeeP_ZeVDlBuKA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h3ekMK9XEeeP_ZeVDlBuKA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_l-W6AK9XEeeP_ZeVDlBuKA" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_l-WS8K9XEeeP_ZeVDlBuKA">
+        <ownedAttribute xmi:id="_l-W6AK9XEeeP_ZeVDlBuKA" name="cartes" visibility="private" association="_l-WS8K9XEeeP_ZeVDlBuKA">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l-XhEa9XEeeP_ZeVDlBuKA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l-XhEK9XEeeP_ZeVDlBuKA"/>
         </ownedAttribute>
@@ -1713,7 +1676,8 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5UNeManiEeeIL9j-e3P21Q" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5UNeMKniEeeIL9j-e3P21Q" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_BUGs8anjEeeIL9j-e3P21Q" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_BUGs8KnjEeeIL9j-e3P21Q">
+        <ownedAttribute xmi:id="_BUGs8anjEeeIL9j-e3P21Q" name="cartes" visibility="private" association="_BUGs8KnjEeeIL9j-e3P21Q">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BUHUAanjEeeIL9j-e3P21Q" value="30"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BUHUAKnjEeeIL9j-e3P21Q" value="30"/>
         </ownedAttribute>
@@ -1730,7 +1694,8 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_EHPOkK9XEeeP_ZeVDlBuKA" name="Effet">
-        <ownedAttribute xmi:id="_KzsfgK9XEeeP_ZeVDlBuKA" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_Kzr4cK9XEeeP_ZeVDlBuKA">
+        <ownedAttribute xmi:id="_KzsfgK9XEeeP_ZeVDlBuKA" name="cartes" visibility="private" association="_Kzr4cK9XEeeP_ZeVDlBuKA">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KztGka9XEeeP_ZeVDlBuKA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KztGkK9XEeeP_ZeVDlBuKA"/>
         </ownedAttribute>
@@ -1850,14 +1815,16 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
         <interfaceRealization xmi:id="_EXnqYN2uEeeWIfRGmtYZpg" client="_KW4cYKngEeeIL9j-e3P21Q">
-          <supplier xmi:type="uml:Interface" href="Analyse1.emx#_BxWPXNXlEeekW_MD1NGrHg?Conception/StoneHearth.itf/IJoueur?"/>
-          <contract href="Analyse1.emx#_BxWPXNXlEeekW_MD1NGrHg?Conception/StoneHearth.itf/IJoueur?"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=IJoueur%5Bjcu%5Ename=IJoueur.java%5Bjpack%5Ename=StoneHearth.itf%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=StoneHearthJava%5D%5D%5D%5D$uml.Interface"/>
+          <contract href="mmi:///#jsrctype%5Ename=IJoueur%5Bjcu%5Ename=IJoueur.java%5Bjpack%5Ename=StoneHearth.itf%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=StoneHearthJava%5D%5D%5D%5D$uml.Interface"/>
         </interfaceRealization>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_OmJnQKniEeeIL9j-e3P21Q" name="Joyaux">
-        <ownedAttribute xmi:id="_oLi3oKnjEeeIL9j-e3P21Q" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_oLhpgKnjEeeIL9j-e3P21Q">
+        <ownedAttribute xmi:id="_oLi3oKnjEeeIL9j-e3P21Q" name="cartes" visibility="private">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLi3oqnjEeeIL9j-e3P21Q" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oLi3oanjEeeIL9j-e3P21Q"/>
+          <association href="Analyse1.emx#_oLhpgKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/vaut?"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_w8togK9YEeeP_ZeVDlBuKA" name="joueur" visibility="private" type="_KW4cYKngEeeIL9j-e3P21Q" association="_w8rMQK9YEeeP_ZeVDlBuKA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w8uPka9YEeeP_ZeVDlBuKA" value="*"/>
@@ -1865,7 +1832,8 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_NB-ewKniEeeIL9j-e3P21Q" name="Pack">
-        <ownedAttribute xmi:id="_Ha6TIKnjEeeIL9j-e3P21Q" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_Ha5sEKnjEeeIL9j-e3P21Q">
+        <ownedAttribute xmi:id="_Ha6TIKnjEeeIL9j-e3P21Q" name="cartes" visibility="private" association="_Ha5sEKnjEeeIL9j-e3P21Q">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ha66ManjEeeIL9j-e3P21Q" value="5"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ha66MKnjEeeIL9j-e3P21Q" value="5"/>
         </ownedAttribute>
@@ -1908,16 +1876,21 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_LWAF4K9YEeeP_ZeVDlBuKA" name="Rareté">
-        <ownedAttribute xmi:id="_cAyBIK9YEeeP_ZeVDlBuKA" name="cartes" visibility="private" type="_H0NZYKniEeeIL9j-e3P21Q" association="_cAwL8K9YEeeP_ZeVDlBuKA">
+        <ownedAttribute xmi:id="_cAyBIK9YEeeP_ZeVDlBuKA" name="cartes" visibility="private">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cAyoMa9YEeeP_ZeVDlBuKA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cAyoMK9YEeeP_ZeVDlBuKA"/>
+          <association href="Analyse1.emx#_cAwL8K9YEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/%3CAssociation%3E?"/>
         </ownedAttribute>
         <ownedLiteral xmi:id="_SKR2EK9YEeeP_ZeVDlBuKA" name="basique" classifier="_LWAF4K9YEeeP_ZeVDlBuKA"/>
         <ownedLiteral xmi:id="_TwNSEK9YEeeP_ZeVDlBuKA" name="commune" classifier="_LWAF4K9YEeeP_ZeVDlBuKA"/>
         <ownedLiteral xmi:id="_VSaEoK9YEeeP_ZeVDlBuKA" name="rare" classifier="_LWAF4K9YEeeP_ZeVDlBuKA"/>
         <ownedLiteral xmi:id="_Wor7EK9YEeeP_ZeVDlBuKA" name="legendaire" classifier="_LWAF4K9YEeeP_ZeVDlBuKA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_Ha5sEKnjEeeIL9j-e3P21Q" name="contient" memberEnd="_Ha6TIKnjEeeIL9j-e3P21Q _Ha66MqnjEeeIL9j-e3P21Q"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ha5sEKnjEeeIL9j-e3P21Q" name="contient">
+        <memberEnd href="#_Ha6TIKnjEeeIL9j-e3P21Q?Analyse/Métier/Pack/cartes?"/>
+        <memberEnd href="Analyse1.emx#_Ha66MqnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/packs?"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_XLhsMKnjEeeIL9j-e3P21Q" name="coute" memberEnd="_XLi6UKnjEeeIL9j-e3P21Q _XLkvgKnjEeeIL9j-e3P21Q"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_ycmxIK9cEeeP_ZeVDlBuKA" memberEnd="_ycnYMK9cEeeP_ZeVDlBuKA _ycn_QK9cEeeP_ZeVDlBuKA"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_1XjbYKniEeeIL9j-e3P21Q" memberEnd="_1XkCcKniEeeIL9j-e3P21Q _1XkpgqniEeeIL9j-e3P21Q">
@@ -1932,13 +1905,20 @@
       <packagedElement xmi:type="uml:Association" xmi:id="_5UKa4KniEeeIL9j-e3P21Q" name="possède" memberEnd="_5ULpAKniEeeIL9j-e3P21Q _5UM3IKniEeeIL9j-e3P21Q"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_Z1RPAK9cEeeP_ZeVDlBuKA" memberEnd="_Z1R2EK9cEeeP_ZeVDlBuKA _Z1SdIK9cEeeP_ZeVDlBuKA"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_h3cvAK9XEeeP_ZeVDlBuKA" memberEnd="_h3dWEK9XEeeP_ZeVDlBuKA _h3d9Iq9XEeeP_ZeVDlBuKA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_Kzr4cK9XEeeP_ZeVDlBuKA" memberEnd="_KzsfgK9XEeeP_ZeVDlBuKA _KzttoK9XEeeP_ZeVDlBuKA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Kzr4cK9XEeeP_ZeVDlBuKA">
+        <memberEnd href="#_KzsfgK9XEeeP_ZeVDlBuKA?Analyse/Métier/Effet/cartes?"/>
+        <memberEnd href="Analyse1.emx#_KzttoK9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/effet?"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_ETRQsK9dEeeP_ZeVDlBuKA" memberEnd="_ETSe0K9dEeeP_ZeVDlBuKA _ETTF4a9dEeeP_ZeVDlBuKA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_BUGs8KnjEeeIL9j-e3P21Q" name="contient" memberEnd="_BUGs8anjEeeIL9j-e3P21Q _BUH7EKnjEeeIL9j-e3P21Q"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BUGs8KnjEeeIL9j-e3P21Q" name="contient">
+        <memberEnd href="#_BUGs8anjEeeIL9j-e3P21Q?Analyse/Métier/Deck/cartes?"/>
+        <memberEnd href="Analyse1.emx#_BUH7EKnjEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte/deck?"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_Gi6_IK9dEeeP_ZeVDlBuKA" memberEnd="_Gi6_Ia9dEeeP_ZeVDlBuKA _Gi7mMq9dEeeP_ZeVDlBuKA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_l-WS8K9XEeeP_ZeVDlBuKA" memberEnd="_l-W6AK9XEeeP_ZeVDlBuKA _l-XhEq9XEeeP_ZeVDlBuKA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_cAwL8K9YEeeP_ZeVDlBuKA" memberEnd="_cAwzAK9YEeeP_ZeVDlBuKA _cAyBIK9YEeeP_ZeVDlBuKA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_oLhpgKnjEeeIL9j-e3P21Q" name="vaut" memberEnd="_oLiQkKnjEeeIL9j-e3P21Q _oLi3oKnjEeeIL9j-e3P21Q"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_l-WS8K9XEeeP_ZeVDlBuKA">
+        <memberEnd href="#_l-W6AK9XEeeP_ZeVDlBuKA?Analyse/Métier/Collection/cartes?"/>
+        <memberEnd href="Analyse1.emx#_l-XhEq9XEeeP_ZeVDlBuKA?Conception/StoneHearth.carte/Carte/collection?"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_wsvq4LTfEee5G65GXw2aHQ" name="Statut_Connexion">
         <ownedAttribute xmi:id="_lhF1U7TgEee5G65GXw2aHQ" name="joueur" visibility="private" type="_KW4cYKngEeeIL9j-e3P21Q" association="_lg8rYLTgEee5G65GXw2aHQ">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lhF1VbTgEee5G65GXw2aHQ" value="*"/>
@@ -3652,13 +3632,15 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_N0dXwLVrEee9EPz1GWoabA" name="genererCartes">
-        <ownedParameter xmi:id="_UzzIcLVrEee9EPz1GWoabA" name="Cards" type="_H0NZYKniEeeIL9j-e3P21Q" direction="return">
+        <ownedParameter xmi:id="_UzzIcLVrEee9EPz1GWoabA" name="Cards" direction="return">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kpiSEbVrEee9EPz1GWoabA" value="5"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kpiSELVrEee9EPz1GWoabA" value="5"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_e8ZwILVrEee9EPz1GWoabA" name="ajouterCartesCollection">
-        <ownedParameter xmi:id="_gGRiQLVrEee9EPz1GWoabA" name="Cards" type="_H0NZYKniEeeIL9j-e3P21Q">
+        <ownedParameter xmi:id="_gGRiQLVrEee9EPz1GWoabA" name="Cards">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mH01AbVrEee9EPz1GWoabA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mH01ALVrEee9EPz1GWoabA"/>
         </ownedParameter>
@@ -3673,7 +3655,8 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_dgtYwLVsEee9EPz1GWoabA" name="afficherCartes">
-        <ownedParameter xmi:id="_ePSWALVsEee9EPz1GWoabA" name="Cards" type="_H0NZYKniEeeIL9j-e3P21Q">
+        <ownedParameter xmi:id="_ePSWALVsEee9EPz1GWoabA" name="Cards">
+          <type xmi:type="uml:Class" href="Analyse1.emx#_H0NZYKniEeeIL9j-e3P21Q?Conception/StoneHearth.carte/Carte?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f1eQsbVsEee9EPz1GWoabA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f1eQsLVsEee9EPz1GWoabA"/>
         </ownedParameter>
