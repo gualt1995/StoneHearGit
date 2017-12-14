@@ -4631,6 +4631,13 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2nGAEeDqEeey7pdjQF6Nbg" name="ReceiveOperationEvent69" operation="_H6-qUNtnEee0MaN-fYEbiA"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_307sMODqEeey7pdjQF6Nbg" name="SendOperationEvent70" operation="_KvoREODqEeey7pdjQF6Nbg"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_308TQODqEeey7pdjQF6Nbg" name="ReceiveOperationEvent70" operation="_KvoREODqEeey7pdjQF6Nbg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iXRl4ODsEeegCaKs6kapdw" name="StoneHearth.Paiement">
+      <eAnnotations xmi:id="_iXTbEODsEeegCaKs6kapdw" source="uml2.diagrams" references="_iXTbEeDsEeegCaKs6kapdw">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_iXTbEeDsEeegCaKs6kapdw" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
     <profileApplication xmi:id="_BxWPXtXlEeekW_MD1NGrHg">
       <eAnnotations xmi:id="_BxWPX9XlEeekW_MD1NGrHg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
