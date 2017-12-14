@@ -3720,8 +3720,8 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lYEsodhVEeeuGu7Jd1n8Ug" covered="_X2J8kNhREeeuGu7Jd1n8Ug" event="_rZ_LwNhVEeeuGu7Jd1n8Ug" message="_lYEsoNhVEeeuGu7Jd1n8Ug"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jQc40dhVEeeuGu7Jd1n8Ug" covered="_X2J8kNhREeeuGu7Jd1n8Ug" event="_xB7EoNhVEeeuGu7Jd1n8Ug" message="_jQeG8NhVEeeuGu7Jd1n8Ug"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jQfVENhVEeeuGu7Jd1n8Ug" covered="_4QGKQNhPEeeuGu7Jd1n8Ug" event="_xB7rsNhVEeeuGu7Jd1n8Ug" message="_jQeG8NhVEeeuGu7Jd1n8Ug"/>
-        <message xmi:id="_mMIcQNhUEeeuGu7Jd1n8Ug" name="AfficherCollection" receiveEvent="_mMKRcNhUEeeuGu7Jd1n8Ug" sendEvent="_mMJqYNhUEeeuGu7Jd1n8Ug"/>
-        <message xmi:id="_mMMGoNhUEeeuGu7Jd1n8Ug" name="AfficherCollection" messageSort="reply" receiveEvent="_mMMtsNhUEeeuGu7Jd1n8Ug" sendEvent="_mMLfkNhUEeeuGu7Jd1n8Ug"/>
+        <message xmi:id="_mMIcQNhUEeeuGu7Jd1n8Ug" name="" receiveEvent="_mMKRcNhUEeeuGu7Jd1n8Ug" sendEvent="_mMJqYNhUEeeuGu7Jd1n8Ug"/>
+        <message xmi:id="_mMMGoNhUEeeuGu7Jd1n8Ug" name="" messageSort="reply" receiveEvent="_mMMtsNhUEeeuGu7Jd1n8Ug" sendEvent="_mMLfkNhUEeeuGu7Jd1n8Ug"/>
         <message xmi:id="_bb4JQNhVEeeuGu7Jd1n8Ug" name="SelectionerCarte" receiveEvent="_bb5-cNhVEeeuGu7Jd1n8Ug" sendEvent="_bb5XYNhVEeeuGu7Jd1n8Ug"/>
         <message xmi:id="_bb8asNhVEeeuGu7Jd1n8Ug" name="SelectionerCarte" messageSort="reply" receiveEvent="_bb9BwNhVEeeuGu7Jd1n8Ug" sendEvent="_bb7zoNhVEeeuGu7Jd1n8Ug"/>
         <message xmi:id="_jQbDoNhVEeeuGu7Jd1n8Ug" name="SupprimerCarte" receiveEvent="_jQcRwNhVEeeuGu7Jd1n8Ug" sendEvent="_jQbqsNhVEeeuGu7Jd1n8Ug"/>
@@ -4425,19 +4425,6 @@
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_hG4nMdtpEee0MaN-fYEbiA" visible="false" type="StructureCompartment"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hG2K8dtpEee0MaN-fYEbiA" x="6340" y="2219" width="6107" height="5816"/>
           </children>
-          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_mV1tcNtrEee0MaN-fYEbiA" element="_mVz4QNtrEee0MaN-fYEbiA" fontName="URW Gothic L" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
-            <children xmi:type="notation:DecorationNode" xmi:id="_mV2UgNtrEee0MaN-fYEbiA" type="ImageCompartment">
-              <layoutConstraint xmi:type="notation:Size" xmi:id="_mV2UgdtrEee0MaN-fYEbiA" width="530" height="530"/>
-            </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_mV2UgttrEee0MaN-fYEbiA" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_mV2Ug9trEee0MaN-fYEbiA" type="Kind"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_mV2UhNtrEee0MaN-fYEbiA" type="Name"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_mV27kNtrEee0MaN-fYEbiA" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_mV27kdtrEee0MaN-fYEbiA" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_mV27kttrEee0MaN-fYEbiA" type="OperationCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_mV27k9trEee0MaN-fYEbiA" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mV1tcdtrEee0MaN-fYEbiA" x="6340" y="8876" width="8516" height="4281"/>
-          </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_CufscNtpEee0MaN-fYEbiA" element="_CgiJMNXoEeekW_MD1NGrHg" source="_qCJugNtoEee0MaN-fYEbiA" target="_CubbANtpEee0MaN-fYEbiA" fontName="URW Gothic L" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_CugTgNtpEee0MaN-fYEbiA" type="NameLabel">
@@ -4450,6 +4437,7 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_hGzHoNtpEee0MaN-fYEbiA" name="Carte">
+        <ownedAttribute xmi:id="_Y59wMODnEeegCaKs6kapdw" name="IdCarte" visibility="private"/>
         <ownedOperation xmi:id="_O_qtsNtqEee0MaN-fYEbiA" name="getDescription">
           <ownedParameter xmi:id="_cAzBsNtqEee0MaN-fYEbiA" name="" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -4476,27 +4464,6 @@
         <ownedOperation xmi:id="_zCJdcNtqEee0MaN-fYEbiA" name="getRarete">
           <ownedParameter xmi:id="_0uPy4NtqEee0MaN-fYEbiA" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_mVz4QNtrEee0MaN-fYEbiA" name="ICollection">
-        <ownedOperation xmi:id="_KmQLgNtsEee0MaN-fYEbiA" name="RecupererCartes">
-          <ownedParameter xmi:id="_Px4i4NtsEee0MaN-fYEbiA" name="" type="_q35D8NXnEeekW_MD1NGrHg" direction="return">
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vreKoNtsEee0MaN-fYEbiA" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vrdjkNtsEee0MaN-fYEbiA" value="1"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_1YXcANtsEee0MaN-fYEbiA" name="idjoueur">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_KjZ2YNttEee0MaN-fYEbiA" name="ajouterCarte">
-          <ownedParameter xmi:id="_Q9KNwNttEee0MaN-fYEbiA" name="carteid">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_XYzbgNttEee0MaN-fYEbiA" name="supprimerCarte">
-          <ownedParameter xmi:id="_Z46n0NttEee0MaN-fYEbiA" name="Carteid">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
