@@ -4513,6 +4513,7 @@
         <ownedAttribute xmi:id="_ubuMAODoEeey7pdjQF6Nbg" name="nom" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_muO_EODsEeey7pdjQF6Nbg" name="test" visibility="private"/>
         <ownedOperation xmi:id="_O_qtsNtqEee0MaN-fYEbiA" name="getDescription">
           <ownedParameter xmi:id="_cAzBsNtqEee0MaN-fYEbiA" name="" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
