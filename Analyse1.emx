@@ -4504,7 +4504,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ppGtoNtuEee0MaN-fYEbiA" name="StoneHearth.joueur">
       <eAnnotations xmi:id="_ppH7wNtuEee0MaN-fYEbiA" source="uml2.diagrams">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zZXGwNtuEee0MaN-fYEbiA" type="Class" name="ClassDiagram1">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zZXGwNtuEee0MaN-fYEbiA" type="Class" name="detailJoueur">
           <children xmi:type="umlnotation:UMLComponent" xmi:id="_2ZX7INtuEee0MaN-fYEbiA" element="_BxWPV9XlEeekW_MD1NGrHg" fontName="URW Gothic L" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" showWhiteBox="true">
             <children xmi:type="notation:DecorationNode" xmi:id="_2ZYiMNtuEee0MaN-fYEbiA" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_2ZYiMdtuEee0MaN-fYEbiA" width="1320" height="1320"/>
@@ -4545,7 +4545,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_7jGOANtuEee0MaN-fYEbiA" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_7jGOAdtuEee0MaN-fYEbiA" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7jGOAttuEee0MaN-fYEbiA" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7jE_4dtuEee0MaN-fYEbiA" x="8546" y="5344" width="6769" height="4282"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7jE_4dtuEee0MaN-fYEbiA" x="4191" y="5207" width="6769" height="4282"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4XspANtuEee0MaN-fYEbiA" element="_BxWPWNXlEeekW_MD1NGrHg" source="_2ZX7INtuEee0MaN-fYEbiA" target="_4XqMwNtuEee0MaN-fYEbiA" fontName="URW Gothic L" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -4558,7 +4558,11 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_7jDKsNtuEee0MaN-fYEbiA" name="Joueur"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7jDKsNtuEee0MaN-fYEbiA" name="Joueur">
+        <ownedAttribute xmi:id="_RBjXkODpEeey7pdjQF6Nbg" name="idJoueur" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_BxWPXtXlEeekW_MD1NGrHg">
       <eAnnotations xmi:id="_BxWPX9XlEeekW_MD1NGrHg" source="http://www.eclipse.org/uml2/2.0.0/UML">
