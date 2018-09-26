@@ -1,3 +1,4 @@
 # StoneHearGit
-M1 Univ project IL, 2017
+## introduction
+Modeling a clone of hearthstone in UML using ibm rational software architect 
 
